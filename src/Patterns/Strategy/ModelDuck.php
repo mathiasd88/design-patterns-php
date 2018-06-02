@@ -11,6 +11,6 @@ class ModelDuck extends Duck
 
     function display()
     {
-        echo "I am a model duck";
+        echo "I am a model duck \n";
     }
 }

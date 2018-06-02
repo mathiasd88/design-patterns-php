@@ -6,6 +6,6 @@ class NormalQuack implements QuackBehavior
 
     public function quack()
     {
-        echo "NormalQuack";
+        echo "Quack \n";
     }
 }

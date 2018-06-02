@@ -11,6 +11,6 @@ class MallardDuck extends Duck
 
     public function display()
     {
-        echo "I am a real Mallard Duck";
+        echo "I am a real Mallard Duck \n";
     }
 }
