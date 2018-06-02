@@ -1,0 +1,17 @@
+{
+    "name": "mathiasdonoso/design-patterns-php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathías",
+            "email": "mathiasd88@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Patterns\\": "src/patterns"
+        }
+    }
+}
