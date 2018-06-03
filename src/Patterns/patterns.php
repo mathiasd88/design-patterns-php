@@ -1,18 +1,20 @@
-<?php
+<?php namespace Patterns;
 
-namespace Patterns;
+use Patterns\Strategy\MiniDuckSimulator;
+use Patterns\Observer\WeatherStation;
+use Patterns\Decorator\StarbuzzCoffee;
 
 /**
  * Strategy Pattern
  */
-
-use Patterns\Strategy\MiniDuckSimulator;
-
 MiniDuckSimulator::main();
 
 /**
  * Observer Pattern
  */
-use Patterns\Observer\WeatherStation;
-
 WeatherStation::main();
+
+/**
+ * Decorator Pattern
+ */
+StarbuzzCoffee::main();
